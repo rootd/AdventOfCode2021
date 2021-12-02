@@ -1,5 +1,6 @@
-# This is my solution for the [Advent Of Code 2021 challenge](https://adventofcode.com/) using Python3
+# AdventOfCode2021
 
+This is my solution for the [Advent Of Code 2021 challenge](https://adventofcode.com/) using Python3.
 
 |Day| Part one | Part two |
 |:-:|:--------:|:--------:|
