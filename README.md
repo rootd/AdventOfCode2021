@@ -7,3 +7,4 @@ This is my solution for the [Advent Of Code 2021 challenge](https://adventofcode
 | 1 | &#10004; | &#10004; |
 | 2 | &#10004; | &#10004; |
 | 3 | &#10004; | &#10004; |
+| 4 | &#10004; | &#10004; |
