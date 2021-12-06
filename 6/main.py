@@ -4,14 +4,9 @@ import copy
 
 def nextOceanDay(ocean):
 	newOcean = [0] * 9
-	newOcean[0] = ocean[1]
-	newOcean[1] = ocean[2]
-	newOcean[2] = ocean[3]
-	newOcean[3] = ocean[4]
-	newOcean[4] = ocean[5]
-	newOcean[5] = ocean[6]
-	newOcean[6] = ocean[7] + ocean[0]
-	newOcean[7] = ocean[8]
+	for fishCounter in range(len(ocean) - 1):
+		newOcean[fishCounter] = ocean[fishCounter + 1]
+	newOcean[6] += ocean[0]
 	newOcean[8] = ocean[0]
 
 	return newOcean
